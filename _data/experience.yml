@@ -1,19 +1,33 @@
 # Jobs
 # Springfield Nuclear Power Plant
-- company: Not Nuclear Power Plant
-  position: Just a guy
-  duration: Nov, 1980 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>Ate lots of donuts</li><li>Fell asleep rarely</li><li>Left promptly at end of day (sometimes earlier)</li></ul>
+- company: Harley-Davidson Motor Company
+  position: IT Development Associate
+  duration: May, 2015 &mdash; Present
+  summary: 
 
-# Windmill Crank Operator
-- company: Sir Putt-A-Lot's Merrie Olde Fun Centre
-  position: Safety Inspector
-  duration:  Jun, 1978 &mdash; Sept, 1979
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+# Service Now Developer
+- company: Harley-Davidson Motor Company
+  position: Service Now Developer
+  duration: November, 2016  &mdash; July 2017
+  summary: 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, enim, 
+            sapiente omnis obcaecati repellat culpa voluptatum quidem rem deleniti illum consequatur 
+            quisquam dolores veritatis, pariatur aspernatur asperiores quae! Dolore, maxime.
 
+#Innovation Architect
+- company: Harley-Davidson Motor Company
+  position: Innovation Architect
+  duration: May, 2015  &mdash; February, 2016
+  summary: 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, enim, 
+            sapiente omnis obcaecati repellat culpa voluptatum quidem rem deleniti illum consequatur 
+            quisquam dolores veritatis, pariatur aspernatur asperiores quae! Dolore, maxime.
 
-# Front Desk Attendant
-- company: Simpson Lazer Tag
-  position: Front Desk Attendant
-  duration:   Jun, 1975  &mdash; May, 1978
-  summary: Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.
+ #Business Systems Analyst
+- company: Harley-Davidson Motor Company
+  position: Business Systems Analyst
+  duration: May, 2015  &mdash; February, 2016
+  summary: 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, enim, 
+            sapiente omnis obcaecati repellat culpa voluptatum quidem rem deleniti illum consequatur 
+            quisquam dolores veritatis, pariatur aspernatur asperiores quae! Dolore, maxime.
