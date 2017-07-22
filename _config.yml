@@ -1,6 +1,6 @@
 # Site settings
 title: "Brady Gerndt"
-description: "A resume template for Jekyll and GitHub Pages sites."
+description: ""
 
 # Build settings
 markdown: kramdown
@@ -12,10 +12,11 @@ sass:
 resume_avatar:                  "true"
 resume_name:                    "Brady J Gerndt"
 resume_title:                   "IT Development Associate"
-resume_contact_email:
-  "brady.gerndt@gmail.com"
-resume_header_contact_info: "742 Evergreen Terrace, Springfield | 555-7334 | homerjsimpson@youremailaddress.com"
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but K.I.S.S.</p>"
+resume_contact_email:           "brady.gerndt@gmail.com"
+resume_header_contact_info: 
+resume_header_intro: 
+                        <p>I'm currently working within a IT leadership development program at Harley-Davidson. 
+                        </p>
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -29,21 +30,21 @@ resume_section_experience:      true
 resume_section_education:       true
 resume_section_projects:        false
 resume_section_skills:          true
-resume_section_recognition:     true
-resume_section_links:           true
-resume_section_associations:    true
+#resume_section_recognition:     true
+#resume_section_links:           true
+#resume_section_associations:    true
 # resume_section_interests:       true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  #resume_github_url:            "https://github.com/jglovier/resume-template"
-  #resume_twitter_url:           "http://twitter.com/jglovier"
-  #resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
+  resume_github_url:            "https://github.com/bradygerndt"
+  #resume_twitter_url:        
+  #resume_dribbble_url:          
+  # resume_facebook_url:         "insert Facebook URL here"
   resume_linkedin_url:          "https://www.linkedin.com/in/bradygerndt"
-  # resume_instagram_url:         "insert your Instagram URL here"
-  #resume_website_url:           "http://joelglovier.com"
+  # resume_instagram_url:        "insert your Instagram URL here"
+  #resume_website_url:           "
 resume_print_social_links:      true
 
 # Design settings
