@@ -47,8 +47,9 @@
       <header class="section-header">
         <h2>Experience</h2>
       </header>
+        
       {{ site.resume_experience_details }}
-      <div class="rotation-container">
+
         {% for job in site.data.experience %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
@@ -57,7 +58,7 @@
         </div>
         <!-- end of resume-item -->
         {% endfor %}
-      </div>
+     
     </section>
     <!-- end Experience -->
     {% endif %} {% if site.resume_section_education %}
@@ -199,8 +200,8 @@
     {% endif %}
 
     <footer class="page-footer">
-      <p class="footer-line">Brady Jordan Gerndt
-        <a href="mailto:{{ site.resume_contact_email }}"></p>
+      <p class="footer-line">Brady Jordan Gerndt |
+        <a href="mailto:{{ site.resume_contact_email }}">brady.gerndt@gmail.com</p>
     </footer>
 
   </div>

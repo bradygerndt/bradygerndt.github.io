@@ -47,10 +47,10 @@ resume_social_links:
   resume_linkedin_url:          "https://www.linkedin.com/in/bradygerndt"
   # resume_instagram_url:        "insert your Instagram URL here"
   #resume_website_url:           "
-resume_print_social_links:      true
+resume_print_social_links:      false
 
 # Design settings
-resume_theme:                   default
+resume_theme:                   
 
 # Note: when editing locally, remember to restart
 # your Jekyll server when you edit this file. Changes
