@@ -16,9 +16,21 @@
   }
 }
 
-// page header styles
 
-.page-header { padding: 1.5rem 0;
+//styles unique to the top
+.page-header-top {
+  background: #fdf6e3;
+  color: #002b36;
+  background: -webkit-linear-gradient(#fdf6e3, #002b36); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#fdf6e3, #002b36); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#fdf6e3, #002b36); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#fdf6e3, #002b36); /* Standard syntax */
+  
+}
+
+
+// page header styles
+.page-header, .page-header-top { padding: 1.5rem 0;
 
   .avatar {
     width: 95px;
@@ -27,6 +39,13 @@
     @include border-radius(200px);
     margin: 0 auto;
     display: block;
+  }
+
+  .header-wrap {
+
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
   }
 
   .header-name {
@@ -98,7 +117,7 @@
   .icon-link { display: inline-block;
 
     &:hover .icon path {
-      fill: #333;
+      fill: #2aa198;
       @include transition(all .2s ease);
     }
   }
@@ -106,7 +125,7 @@
 
 .contact-button {
   @include border-radius(3px);
-  background-color: #efefef;
+  background-color: #2aa198;
   text-decoration: none;
   text-align: center;
   display: block;
@@ -114,12 +133,12 @@
   width: 220px;
   font-size: 1.375rem;
   @include sans_light;
-  color: #333;
+  color: #eee8d5;
   line-height: 55px;
   @include transition(all .2s ease);
 
   &:hover {
-    background-color: #333;
+    background-color: #586e75;
     color: #fff;
   }
 
@@ -178,7 +197,7 @@
 // footer styles
 
 .page-footer {
-  border-top: 4px solid #c7c7c7;
+  border-top: 4px solid #586e75;
   padding-top: 1.5rem;
   text-align: center;
   margin-bottom: 3rem;
@@ -190,7 +209,7 @@
 
     > a {
       font-weight: 700;
-      color: #333;
+      color: #586e75;
     }
   }
 }
@@ -201,7 +220,7 @@
   .no-print { display: none !important }
   .print-only { display: block !important }
   body { font-size: 12px; line-height: 1rem; }
-  .page-header { padding: 1rem 0 .2rem;
+  .page-header, page-header-top { padding: 1rem 0 .2rem;
     .header-name {
       @include sans_bold;
       font-size: 2rem;

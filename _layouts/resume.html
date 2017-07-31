@@ -5,16 +5,18 @@
 
 <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
 
+
+
+  <header class="page-header-top">
+    <!-- You can turn off the avatar in _config.yml by setting to false -->
+    {% if site.resume_avatar == 'true' %}
+    <img src="images/bg.png" alt="my photo" class="avatar no-print" itemprop="image"> {% endif %}
+
+    <!-- Your name is defined in the _config.yml file -->
+    <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
+  </header>
   <div class="wrapper" itemscope itemtype="http://schema.org/Person">
-
     <header class="page-header">
-      <!-- You can turn off the avatar in _config.yml by setting to false -->
-      {% if site.resume_avatar == 'true' %}
-      <img src="images/bg.png" alt="my photo" class="avatar no-print" itemprop="image"> {% endif %}
-
-      <!-- Your name is defined in the _config.yml file -->
-      <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
-
       <!-- Contact buttons don't work in print, configure in the _config.yml file, remove "print-only" to display always. -->
       <div class="header-contact-info print-only" itemprop="contact-info">
         <p>{{ site.resume_header_contact_info }}</p>
@@ -47,18 +49,16 @@
       <header class="section-header">
         <h2>Experience</h2>
       </header>
-        
-      {{ site.resume_experience_details }}
 
-        {% for job in site.data.experience %}
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-          <p class="resume-item-copy">{{ job.summary }}</p>
-        </div>
-        <!-- end of resume-item -->
-        {% endfor %}
-     
+      {{ site.resume_experience_details }} {% for job in site.data.experience %}
+      <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+        <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
+        <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
+        <p class="resume-item-copy">{{ job.summary }}</p>
+      </div>
+      <!-- end of resume-item -->
+      {% endfor %}
+
     </section>
     <!-- end Experience -->
     {% endif %} {% if site.resume_section_education %}
