@@ -52,7 +52,6 @@
 // type utilities
 
 @mixin sans {
-  //font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -71,10 +70,6 @@
   font-weight: 700;
 }
 
-@mixin fancy_header {
-  font-family: 'Pacifico', cursive;
-  font-weight: 700;
-}
 
 @mixin sans_extrabold {
   @include sans;

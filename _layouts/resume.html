@@ -6,17 +6,16 @@
 <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
 
 
-
-  <header class="page-header-top">
+<div class="wrapper" itemscope itemtype="http://schema.org/Person">
+  <header class="page-header">
     <!-- You can turn off the avatar in _config.yml by setting to false -->
     {% if site.resume_avatar == 'true' %}
     <img src="images/bg.png" alt="my photo" class="avatar no-print" itemprop="image"> {% endif %}
 
     <!-- Your name is defined in the _config.yml file -->
     <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
-  </header>
-  <div class="wrapper" itemscope itemtype="http://schema.org/Person">
-    <header class="page-header">
+  
+  
       <!-- Contact buttons don't work in print, configure in the _config.yml file, remove "print-only" to display always. -->
       <div class="header-contact-info print-only" itemprop="contact-info">
         <p>{{ site.resume_header_contact_info }}</p>

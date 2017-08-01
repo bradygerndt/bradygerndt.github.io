@@ -17,17 +17,8 @@
 }
 
 
-//styles unique to the top
-.page-header-top {
-  //background-color: #586e75;
-  color: #2aa198;
-  //background-image: linear-gradient(to bottom, #586e75, #002b36);
-  padding-bottom: 0 !important;
-}
-
-
 // page header styles
-.page-header, .page-header-top { padding: 1.5rem 0;
+.page-header { padding: 1.5rem 0;
 
   .avatar {
     width: 95px;
@@ -219,7 +210,7 @@
   .no-print { display: none !important }
   .print-only { display: block !important }
   body { font-size: 12px; line-height: 1rem; }
-  .page-header, page-header-top { padding: 1rem 0 .2rem;
+  .page-header { padding: 1rem 0 .2rem;
     .header-name {
       @include sans_bold;
       font-size: 2rem;
