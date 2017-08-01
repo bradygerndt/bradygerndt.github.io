@@ -5,6 +5,7 @@
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
   border-radius: $radius;
+  
 }
 
 @mixin transition($value) {
@@ -52,7 +53,7 @@
 
 @mixin sans {
   //font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 
 @mixin sans_light {
@@ -70,13 +71,18 @@
   font-weight: 700;
 }
 
+@mixin fancy_header {
+  font-family: 'Pacifico', cursive;
+  font-weight: 700;
+}
+
 @mixin sans_extrabold {
   @include sans;
   font-weight: 800;
 }
 
 @mixin serif {
-font-family: 'Roboto Condensed', sans-serif;;
+font-family: 'Roboto', sans-serif;;
 }
 
 @mixin serif_regular {

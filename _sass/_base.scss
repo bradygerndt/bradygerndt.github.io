@@ -8,7 +8,7 @@
 
 html {
   //background: $white;
-  background: #002b36;;
+  background: white;;
 }
 
 body{
@@ -16,6 +16,10 @@ body{
   color: $text_color;
   font-size: 16px;
   line-height: 1.5;
+}
+
+body h2, h1 {
+  color: #2aa198;
 }
 
 .wrapper:before,
