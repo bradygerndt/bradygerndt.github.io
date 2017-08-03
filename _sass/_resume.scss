@@ -206,6 +206,7 @@
 
 .print-only { display: none !important }
 
+//set this up so that printer only picks up key info
 @media print {
   .no-print { display: none !important }
   .print-only { display: block !important }
