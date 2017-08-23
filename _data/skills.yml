@@ -1,12 +1,12 @@
 # Skills
-# Donut design
+# Solution Design
 - skill: Solution Design
-  description: Technology analysis and design, solution scoping, organizational awareness, service transition
+  description: Technology analysis and design, solution scoping, organizational awareness, service transition, proof of concept development
 
-# Craft beer brewing
-- skill: Relationship Management
-  description: Requirements gathering, strategy development, end user support, process analysis
-
-# Family leadership
+# Web Development
 - skill: Web Development
   description: JavaScript, HTML, CSS, AngularJS, Bootstrap, Sass
+
+# Relationship Management
+- skill: Relationship Management
+  description: Requirements gathering, strategy development, end user support, process analysis
