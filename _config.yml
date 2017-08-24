@@ -68,7 +68,6 @@ plugins:
   - jekyll-seo-tag
 #SEO stuff
 description: "Brady Gerndt, Milwaukee based IT professional"
-image: http://www.bradygerndt.me/images/bg.jpg
 author: Brady Gerndt
 lang: en_US
 
