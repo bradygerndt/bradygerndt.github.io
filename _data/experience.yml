@@ -3,26 +3,33 @@
 # Service Now Developer
 - company: Harley-Davidson Motor Company
   position: ServiceNow Developer
-  duration: November, 2016  &mdash; July 2017
+  duration: November, 2016  &mdash; July, 2017
   summary: 
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, enim, 
-            sapiente omnis obcaecati repellat culpa voluptatum quidem rem deleniti illum consequatur 
-            quisquam dolores veritatis, pariatur aspernatur asperiores quae! Dolore, maxime.
+            Led development of an internal service portal for our IT service management application. I worked with
+            both our internal IT department and our users to improve the usability of the system while still maintaining
+            functional requirements. I led usability and customer insight research to gain a better grasp on customer needs.
+            Using these requirements as input I developed features with a focus on maintainability and scale.
+            In order to deliver these features I got familiar with AngularJS, Bootstrap and Sass.
 
 #Innovation Architect
 - company: Harley-Davidson Motor Company
   position: Innovation Architect
-  duration: May, 2015  &mdash; February, 2016
+  duration: February, 2016  &mdash; November, 2016
   summary: 
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, enim, 
-            sapiente omnis obcaecati repellat culpa voluptatum quidem rem deleniti illum consequatur 
-            quisquam dolores veritatis, pariatur aspernatur asperiores quae! Dolore, maxime.
+           Served as a technologist to carry out proof of concepts for H-D's IT innovation team. 
+           I learned about, piloted and prototyped technologies ranging from VR to IoT in support of our manufacturing, marketing
+           and sales functions. Most significantly, I led an initiative to deliver an AR application and traveled to Australia to demo it.
+           As an innovation architect I was also responsible for supporting the innovation lifecycle and contributed
+           to an innovation challenge that provided employees with a platform to pitch new ideas.
+
 
  #Business Systems Analyst
 - company: Harley-Davidson Motor Company
   position: Business Systems Analyst
   duration: May, 2015  &mdash; February, 2016
   summary: 
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, enim, 
-            sapiente omnis obcaecati repellat culpa voluptatum quidem rem deleniti illum consequatur 
-            quisquam dolores veritatis, pariatur aspernatur asperiores quae! Dolore, maxime.
+            Strategically partnered with HR and Communications to thoughtfully plan, implement
+            and support technology solutions. I developed a deep understanding of their functional
+            needs to serve as the starting point for well calibrated tech implementations. 
+            I served as a core team member during the technical onboarding of a new international office
+            and led an initiative to integrate a new mass notification system.
