@@ -3,7 +3,7 @@
 *Built my resume based on a simple Jekyll + GitHub Pages powered resume template.*
 [Check out the resume template here](https://github.com/jglovier/resume-template)
 
-My resume can be found [here](bradygerndt.me)
+My resume can be found [here](www.bradygerndt.me)
 
 ## Docs
 
