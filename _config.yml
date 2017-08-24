@@ -59,4 +59,8 @@ resume_theme:
 # your Jekyll server when you edit this file. Changes
 # to _config.yml are only recognized when the server starts
 
-include: [".well-known"]
+#Don't need this on github's server
+#include: [".well-known"]
+
+plugins:
+  - jekyll-seo-tag
