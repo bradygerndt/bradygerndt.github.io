@@ -92,7 +92,7 @@
     </section>
     <!-- end Education -->
     {% endif %} {% if site.resume_section_education %}
-    <!-- begin Education -->
+    <!-- begin Certification -->
     <section class="content-section">
       <header class="section-header">
         <h2>Certification</h2>
@@ -100,11 +100,11 @@
 
       {% for certification in site.data.certifications %}
       <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/CollegeOrUniversity">
-        <a href={{ certification.img-link}} target="_blank"><img class="cert-img" src={{ certification.img-src }}/></a>
+        <a href={{ certification.img-link}} target="_blank">{{ certification.img-tag }}</a>
       </div>
       {% endfor %}
     </section>
-    <!-- end Education -->
+    <!-- end Certification -->
     {% endif %} {% if site.resume_section_projects %}
     <!-- begin Projects -->
     <section class="content-section">
