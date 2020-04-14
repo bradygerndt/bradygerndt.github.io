@@ -1,20 +1,33 @@
 
+#Senior Configuration Management Analyst
+- company: Harley-Davidson Motor Company
+  position: Senior Configuration Management Analyst
+  duration: February 2018 &mdash; Present
+  summary: 
+          I currently lead the configuration management capability at H-D. 
+          I develop tools, process and data to ensure the consistent performance of thousands of compute resources. 
+          In this position, I closely collaborate with various infrastructure and application teams to ensure that tech is delivered as defined.
+          I lean heavily on ServiceNow, automation and communication to succeed.
+          
 # Infrastructure Analyst
 - company: Harley-Davidson Motor Company
   position: Infrastructure Analyst
   duration: July, 2017  &mdash; February, 2018
   summary: 
-          Researched GIS infrastructure to identify components due for decommission. Utilized ServiceNow, Flexera, SCCM, Stealthwatch and other monitoring and discovery tools to measure usage and state of GIS assets. Analyzed application architecture to determine relationships and dependencies as part of decommission impact analysis. Worked closely with business relationship managers to understand business dependency on 
+          Researched H-D's Windows and Linux infrastructure to identify components due for decommission. 
+          I developed monitoring and discovery tools  with ServiceNow, Flexera, SCCM, Stealthwatch and Solarwinds to measure the usage and state of IT assets. 
+          Through application analysis I determined ownership and dependencies to minimize decommisson impact.
+          Most importantly, I partnered with business relationship managers to successfully disposition unused infrastructure.
 
 # Service Now Developer
 - company: Harley-Davidson Motor Company
   position: ServiceNow Developer
   duration: November, 2016  &mdash; July, 2017
   summary: 
-            Led development of an internal service portal for our IT service management application. I worked with
-            both our internal IT department and our users to improve the usability of the system while still maintaining
-            functional requirements. I led usability and customer insight research to gain a better grasp on customer needs.
-            Using these requirements as input I developed features with a focus on maintainability and scale.
+            Developed internal service portal for our IT service management application. I worked with
+            our internal IT department to improve the usability to meet our users needs. 
+            I led usability and customer insight research to gain a better grasp on customer needs.
+            Based on user feedback I developed maintainable and scalable features to drive adoption of the portal as the primary digital interface with IT.
             In order to deliver these features I got familiar with AngularJS, Bootstrap and Sass.
 
 #Innovation Architect
@@ -23,19 +36,19 @@
   duration: February, 2016  &mdash; November, 2016
   summary: 
            Served as a technologist to carry out proof of concepts for H-D's IT innovation team. 
-           I learned about, piloted and prototyped technologies ranging from VR to IoT in support of our manufacturing, marketing
+           I piloted and prototyped technologies ranging from VR to IoT in support of our manufacturing, marketing
            and sales functions. Most significantly, I led an initiative to deliver an AR application and traveled to Australia to demo it.
-           As an innovation architect I was also responsible for supporting the innovation lifecycle and contributed
+           I was also responsible for supporting the innovation life cycle and contributed
            to an innovation challenge that provided employees with a platform to pitch new ideas.
 
 
- #Business Systems Analyst
-- company: Harley-Davidson Motor Company
-  position: Business Systems Analyst
-  duration: May, 2015  &mdash; February, 2016
-  summary: 
-            Strategically partnered with HR and Communications to thoughtfully plan, implement
-            and support technology solutions. I developed a deep understanding of their functional
-            needs to serve as the starting point for well calibrated tech implementations. 
-            I served as a core team member during the technical onboarding of a new international office
-            and led an initiative to integrate a new mass notification system.
+#  #Business Systems Analyst
+# - company: Harley-Davidson Motor Company
+#   position: Business Systems Analyst
+#   duration: May, 2015  &mdash; February, 2016
+#   summary: 
+#             Strategically partnered with HR and Communications to thoughtfully plan, implement
+#             and support technology solutions. I developed a deep understanding of their functional
+#             needs to serve as the starting point for well calibrated tech implementations. 
+#             I served as a core team member during the technical onboarding of a new international office
+#             and led an initiative to integrate a new mass notification system.
