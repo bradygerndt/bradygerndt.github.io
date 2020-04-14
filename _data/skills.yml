@@ -5,8 +5,16 @@
 
 # Web Development
 - skill: Web Development
-  description: JavaScript, HTML, CSS, AngularJS, Bootstrap, Sass, ServiceNow APIs
+  description: JavaScript, NodeJS, HTML, CSS, AngularJS, Bootstrap, Sass, Git, Jenkins, Lambda
 
 # Configuration Management
-- skill: Configuration Management
-  description: Network protocols for device discovery, SNMP, WMI, SSH, VMware
+- skill: System Administration
+  description: Device discovery, SNMP, WMI, Bash, PowerShell, VMware, Python
+
+# Cloud Computing
+- skill: Cloud Computing
+  description: Adoption, design and administration of cloud infrastructure on AWS.
+
+#ServiceNow
+- skill: ServiceNow
+  description: Administration, application development, service portal, discovery, configuration management, ITSM

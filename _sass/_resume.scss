@@ -140,7 +140,7 @@
 .content-section {
   margin: 0 0 3rem;
 
-  .resume-item { margin-bottom: 2rem; }
+  .resume-item { margin-bottom: 1rem;}
 
   .resume-item-title {
     @include sans_bold;
@@ -182,6 +182,7 @@
   }
 
   .resume-item-copy { margin: .75rem 0 0; }
+  .skill { margin-bottom: .25em; }
 }
 
 // footer styles
@@ -238,6 +239,12 @@
       font-style:italic;
     }
   }
+}
+.cert-img {
+  display: block;
+  width: 5em;
+  margin: auto;
+
 }
 
 
