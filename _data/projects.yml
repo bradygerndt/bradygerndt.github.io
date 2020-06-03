@@ -1,12 +1,13 @@
 # Projects
-# PoeBox
-- project: PoeBox 
-  role: Form guy
-  duration: July 2017 &mdash; Present
+# rapid7 integration
+- project: ServiceNow - Rapid 7 Integration
+  role: Developer
   description: 
-              Poebox is a service built with nodeJs, Vue and libpostal to provide users with an easy way to parse postal addresses
-              and gain more information about them. 
-
+              Developed an integration between ServiceNow and Rapid 7 InsightVM to import CI risk scores via REST, the identification and reconciliation API, import sets and event queues. The ability to aggregate and report on risk scores provided increased visibility to portfolio managers.
+# Warranty integration
+- project: ServiceNow Warranty Integration
+  role: Developer
+  description: 
 
 # #project 2
 # - project: 
