@@ -49,6 +49,7 @@ resume_social_links:
   resume_linkedin_url:          "https://www.linkedin.com/in/bradygerndt"
   # resume_instagram_url:        "insert your Instagram URL here"
   #resume_website_url:           "
+  resume_terminal_url:          "https://www.bradygerndt.info/bradyterm/"
 resume_print_social_links:      false
 
 # Design settings
