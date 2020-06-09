@@ -2,7 +2,6 @@
 <html>
 
 {% include head.html %}
-
 <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
 
 
@@ -115,7 +114,7 @@
       {% for project in site.data.projects %}
       <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
         <h3 class="resume-item-title" itemprop="name">{{ project.project }}</h3>
-        <h4 class="resume-item-details" itemprop="description">{{ project.role }} &bull; {{ project.duration }}</h4>
+        <h4 class="resume-item-details" itemprop="description">{{ project.role }}  {{ project.duration }}</h4>
         <p class="resume-item-copy">{{ project.description }}</p>
       </div>
       {% endfor %}
@@ -210,7 +209,6 @@
     </section>
     <!-- end Print Social Links -->
     {% endif %}
-
     {% if site.resume_looking_for_work == 'yes' %}
     <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a> {%
       elsif site.resume_looking_for_work == 'no' %}
