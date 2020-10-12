@@ -232,6 +232,10 @@ li.wiggle-icon:hover {
       }
     }
   }
+  .resume-item > iframe {
+    display: block;
+    margin: auto;
+  }
   .rotation-container {
     padding: 0 1em;
     border-right: .25em dashed #c7c7c7;

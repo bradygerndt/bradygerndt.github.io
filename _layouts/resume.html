@@ -98,9 +98,7 @@
       </header>
 
       {% for certification in site.data.certifications %}
-      <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/CollegeOrUniversity">
-        <a href={{ certification.img-link}} target="_blank">{{ certification.img-tag }}</a>
-      </div>
+      <div class="resume-item"> {{certification.cert-html}} </div>
       {% endfor %}
     </section>
     <!-- end Certification -->
