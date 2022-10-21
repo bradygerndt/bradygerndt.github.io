@@ -8,7 +8,8 @@ sass:
   style: compressed
 
 # Resume settings
-resume_avatar:                  "true"
+resume_avatar:                  true
+show_name:                      false
 resume_name:                    "Brady J Gerndt"
 resume_title:                   "Software Engineer"
 resume_contact_email:           "brady.gerndt@gmail.com"
