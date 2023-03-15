@@ -7,9 +7,9 @@
 - skill: Web Development
   description: JavaScript, NodeJS, HTML, CSS, AngularJS, Bootstrap, Sass, Git, Jenkins, Lambda
 
-# Configuration Management
-- skill: System Administration
-  description: Device discovery, SNMP, WMI, Bash, PowerShell, VMware, Python
+# Infrastructure Automation
+- skill: Infrastructure Automation
+  description: Python, Docker, Ansible, Bash, VMware, SNMP, WMI, PowerShell, Network Automation 
 
 # Cloud Computing
 - skill: Cloud Computing
@@ -17,4 +17,4 @@
 
 #ServiceNow
 - skill: ServiceNow
-  description: Administration, application development, service portal, discovery, configuration management, ITSM
+  description: Administration, application development, service portal, discovery, configuration management, ITSM, Glide API, Flow Designer
